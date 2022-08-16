@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+
+header {
+    background-color: #0d6efd;
+}
+
+.navbar-brand img {
+    width: 50px;
+    margin: 5px;
+}
+
+.arruma-menu {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
