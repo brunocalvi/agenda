@@ -19,6 +19,7 @@ if(isset($_SESSION['msg'])) {
 
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.0/css/bootstrap-grid.rtl.min.css" integrity="sha512-at7npIl3u0XaVTsnGD9hAyp6JHX0tt88dTnwoOB/safyhpP5Toedb1MJGd6H8dBpnX626A1Lx5m7SwQn1ywhgw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
@@ -27,7 +28,7 @@ if(isset($_SESSION['msg'])) {
 </head>
 <body>
     <header>
-        <nav class="container navbar navbar-expand-lg navbar-dark bg-primary arruma-menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary arruma-menu">
             <a class="navbar-brand" href="<?php echo $base_url; ?>index.php">
                 <img src="<?php echo $base_url; ?>img/logo.svg" alt="Agenda">
             </a>
