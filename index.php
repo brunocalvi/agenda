@@ -24,7 +24,7 @@
                         <td scope="row"><?php echo $contact["name"]; ?></td>
                         <td scope="row"><?php echo $contact["phone"]; ?></td>
                         <td class="actions">
-                            <a href="#"><i class="fas fa-eye check-icon"></i></a>
+                            <a href="<?php echo $base_url; ?>show.php?id=<?php echo $contact["id"]; ?>"><i class="fas fa-eye check-icon"></i></a>
                             <a href="#"><i class="far fa-edit edit-icon"></i></a>
                             <button type="submit" class="delete-btn"><i class="fas fa-times delete-icon"></i></button>
                         </td>
