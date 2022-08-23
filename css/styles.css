@@ -61,6 +61,14 @@
     margin-top: 30px;
 }
 
+.nav-link {
+    margin-right: 10px;
+}
+
+.delete-form {
+    display: inline-block;
+}
+
 /* Show */
 #view-contact-container {
     max-width: 500px;
@@ -104,5 +112,11 @@
     margin-top: 10px;
 }
 
+/* Mobile */
+@media(max-width: 480px) {
+    .navbar-nav #home-link {
+        display: none;
+    }
+}
 
 
